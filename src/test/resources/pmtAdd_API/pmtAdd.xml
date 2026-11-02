@@ -1,0 +1,23 @@
+<FIXML xmlns="http://www.finacle.com/fixml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.finacle.com/fixml ../xsd/FIXML.xsd">
+  <Header>
+    <RequestHeader>
+      <RequestId>123456789</RequestId>
+      <ServiceName>pmtAdd</ServiceName>
+      <ChannelId>WEB</ChannelId>
+      <UserId>user123</UserId>
+      <RequestDateTime>2024-06-01T12:00:00Z</RequestDateTime>
+    </RequestHeader>
+  </Header>
+  <Body>
+    <PaymentAddRequest>
+      <PaymentDetails>
+        <Amount>1000.00</Amount>
+        <Currency>USD</Currency>
+        <BeneficiaryAccount>9876543210</BeneficiaryAccount>
+        <BeneficiaryName>John Doe</BeneficiaryName>
+        <PaymentDate>2024-06-02</PaymentDate>
+        <PaymentReference>INV123456</PaymentReference>
+      </PaymentDetails>
+    </PaymentAddRequest>
+  </Body>
+</FIXML>
