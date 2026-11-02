@@ -32,5 +32,6 @@ public class pmtAdd1_Test {
         System.out.println(API_propertyUtil.class.getClassLoader().getResource("pmtAdd_API/pmtAdd.properties"));
         DBFunction_POJO pojo = dbf.fetch_data("getSAIND");
         System.out.println(" Acct NAME:: "+pojo.getAcctName());
+
     }
 }
